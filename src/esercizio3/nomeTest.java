@@ -1,14 +1,14 @@
-package Quotation;
+package esercizio3;
 
-public class quotationTest {
+public class nomeTest {
 
 	public static void main(String[] args) {
-		Quotation myQuotation = new Quotation(); // istanzio,,,
-		myQuotation.quote="So programmare in Java";
-		myQuotation.display(); // invoco il metodo dell'istanza
+		Nome myQuotation = new Nome();
+		myQuotation.display();
 		
 		myQuotation.nome="Deborah";
 		
+		System.out.println("            ");
 		System.out.println("DDDDDD		");
     	System.out.println("DDDDDDD		");
     	System.out.println("DD    DD	");
